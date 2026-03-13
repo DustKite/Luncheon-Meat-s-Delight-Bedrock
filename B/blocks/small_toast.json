@@ -1,0 +1,113 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "luncheonmeatsdelight:small_toast",
+            "menu_category": {
+                "category": "items",
+                "group": "luncheonmeatsdelight:itemGroup.name.luncheonmeatsdelight"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "small_toast",
+                    "ambient_occlusion": false
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -3.5,
+                    0.0,
+                    -2.5
+                ],
+                "size": [
+                    7.0,
+                    6.0,
+                    5.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -3.5,
+                    0.0,
+                    -2.5
+                ],
+                "size": [
+                    7.0,
+                    6.0,
+                    5.0
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.01
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.01
+            },
+            "tag:farmersdelight:can_cut.tag.farmersdelight:is_knife": {},
+            "minecraft:geometry": "geometry.small_toast",
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        }
+    }
+}

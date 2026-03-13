@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cook {"id":"luncheonmeatsdelight:luncheon_meat","result":"luncheonmeatsdelight:fry_luncheon_meat","time":200}
+scoreboard objectives remove farmersdelight_luncheonmeatsdelight_cook

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "luncheonmeatsdelight:luncheon_meat_can",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:luncheon_meat_can"
+                }
+            }
+        },
+        "description": {
+            "identifier": "luncheonmeatsdelight:luncheon_meat_can",
+            "menu_category": {
+                "category": "items",
+                "group": "luncheonmeatsdelight:itemGroup.name.luncheonmeatsdelight"
+            }
+        }
+    }
+}

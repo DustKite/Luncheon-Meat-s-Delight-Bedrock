@@ -1,0 +1,19 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luncheonmeatsdelight:book_luncheonmeatdelight",
+            "menu_category": {
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.miscItem"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:book_luncheonmeatdelight"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luncheonmeatsdelight:can_shell_dough"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "luncheonmeatsdelight:can_shell_abandon"
+      },
+      "B": {
+      "item": "farmersdelight:wheat_dough"
+      }
+    },
+    "result": {
+      "item": "luncheonmeatsdelight:can_shell_dough"
+    }
+  }
+}

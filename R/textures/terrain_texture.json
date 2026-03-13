@@ -1,0 +1,25 @@
+{
+    "texture_data": {
+        "fried_egg_luncheon_meat_block": {
+            "textures": "textures/blocks/fried_egg_luncheon_meat_block"
+        },
+        "small_toast": {
+            "textures": "textures/blocks/small_toast"
+        },
+        "can_shell_small_toast": {
+            "textures": "textures/blocks/can_shell_small_toast"
+        },
+        "luncheon_meat_can_open": {
+            "textures": "textures/blocks/luncheon_meat_can_open"
+        },
+        "luncheon_meat_can": {
+            "textures": "textures/blocks/luncheon_meat_can"
+        },
+        "luncheon_meat_can_pile3": {
+            "textures": "textures/blocks/luncheon_meat_can_pile3"
+        },
+        "luncheon_meat_rice_ball_blockfood": {
+            "textures": "textures/blocks/luncheon_meat_rice_ball_blockfood"
+        }
+    }
+}

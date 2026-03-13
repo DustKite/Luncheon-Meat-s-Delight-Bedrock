@@ -1,0 +1,3 @@
+scriptevent farmersdelight:cutting_board_recipe { "ingredients": { "item": "luncheonmeatsdelight:small_toast" }, "result": [{ "item": "luncheonmeatsdelight:sliced_toast", "count": 4 }], "tool": { "tag": "farmersdelight:is_knife" }, "is_block_type": true, "sound": "use.wood" }
+scriptevent farmersdelight:cutting_board_recipe { "ingredients": { "item": "minecraft:porkchop" }, "result": [{ "item": "luncheonmeatsdelight:minced_pork", "count": 2 }], "tool": { "item": "minecraft:stick" }, "is_block_type": false, "sound": "use.wood" }
+scoreboard objectives remove farmersdelight_luncheonmeatsdelight_cutting_board

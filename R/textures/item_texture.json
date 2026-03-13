@@ -1,0 +1,54 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "luncheonmeatsdelight:can_shell": {
+            "textures": "textures/items/can_shell"
+        },
+        "luncheonmeatsdelight:can_shell_abandon": {
+            "textures": "textures/items/can_shell_abandon"
+        },
+        "luncheonmeatsdelight:can_shell_dough": {
+            "textures": "textures/items/can_shell_dough"
+        },
+        "luncheonmeatsdelight:can_shell_small_toast": {
+            "textures": "textures/items/can_shell_small_toast"
+        },
+        "luncheonmeatsdelight:flesh_mud_bucket": {
+            "textures": "textures/items/flesh_mud_bucket"
+        },
+        "luncheonmeatsdelight:fried_egg_luncheon_meat": {
+            "textures": "textures/items/fried_egg_luncheon_meat"
+        },
+        "luncheonmeatsdelight:fry_luncheon_meat": {
+            "textures": "textures/items/fry_luncheon_meat"
+        },
+        "luncheonmeatsdelight:luncheon_meat": {
+            "textures": "textures/items/luncheon_meat"
+        },
+        "luncheonmeatsdelight:luncheon_meat_can": {
+            "textures": "textures/items/luncheon_meat_can"
+        },
+        "luncheonmeatsdelight:luncheon_meat_can_raw": {
+            "textures": "textures/items/luncheon_meat_can_raw"
+        },
+        "luncheonmeatsdelight:luncheon_meat_rice_ball": {
+            "textures": "textures/items/luncheon_meat_rice_ball"
+        },
+        "luncheonmeatsdelight:luncheon_meat_sandwich": {
+            "textures": "textures/items/luncheon_meat_sandwich"
+        },
+        "luncheonmeatsdelight:minced_pork": {
+            "textures": "textures/items/minced_pork"
+        },
+        "luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood": {
+            "textures": "textures/items/luncheon_meat_rice_ball_blockfood"
+        },
+        "luncheonmeatsdelight:book_luncheonmeatdelight": {
+            "textures": "textures/items/book_LuncheonMeatDelight"
+        },
+        "luncheonmeatsdelight:sliced_toast": {
+            "textures": "textures/items/sliced_toast"
+        }
+    }
+}

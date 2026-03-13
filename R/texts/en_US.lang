@@ -1,0 +1,51 @@
+pack.description=For1.21.90+, Please place it above the main package to load. This addon is ported based on the original Java Edition mod Luncheon Meat 's Delight and this work is licensed under the MIT License.
+pack.name=Luncheon Meat 's Delight
+
+item.luncheonmeatsdelight:luncheon_meat=Luncheon Meat
+item.luncheonmeatsdelight:fry_luncheon_meat=Fried Luncheon Meat
+item.luncheonmeatsdelight:can_shell=Can Shell
+item.luncheonmeatsdelight:can_shell_abandon=Discarded Can Shell
+item.luncheonmeatsdelight:luncheon_meat_can_raw=Raw Luncheon Meat Can
+item.luncheonmeatsdelight:minced_pork=Minced Pork
+item.luncheonmeatsdelight:can_shell_dough=Can Shell Dough
+item.luncheonmeatsdelight:sliced_toast=Sliced Toast
+item.luncheonmeatsdelight:luncheon_meat_sandwich=Luncheon Meat Sandwich
+item.luncheonmeatsdelight:luncheon_meat_rice_ball=Luncheon Meat Rice Ball
+item.luncheonmeatsdelight:fried_egg_luncheon_meat=Fried Egg with Luncheon Meat
+item.luncheonmeatsdelight:luncheon_meat_can=Luncheon Meat Can
+item.luncheonmeatsdelight:can_shell_small_toast=Canned Toast
+item.luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood=Luncheon Meat Rice Ball Platter
+item.luncheonmeatsdelight:book_luncheonmeatdelight=The Book of Luncheon Meat 's Delight
+
+tile.luncheonmeatsdelight:luncheon_meat_can.name=Luncheon Meat Can
+tile.luncheonmeatsdelight:can_shell_small_toast_block.name=Canned Toast Block
+tile.luncheonmeatsdelight:small_toast.name=Small Toast
+tile.luncheonmeatsdelight:fried_egg_luncheon_meat_block.name=Fried Egg & Luncheon Meat Block
+tile.luncheonmeatsdelight:luncheon_meat_rice_ball_block.name=Luncheon Meat Rice Ball Platter
+
+luncheonmeatsdelight:itemGroup.name.luncheonmeatsdelight=Luncheon Meat 's Delight-Can
+
+item.LuncheonMeatDelight:food_manual.name=Main Interface
+LuncheonMeatDelight.book.thanks.title=Credits
+LuncheonMeatDelight.book.back=Back
+LuncheonMeatDelight.book.other_foods.title=Other Foods
+LuncheonMeatDelight.book.toast.title=Toast
+
+LuncheonMeatDelight.book.thanks.permit=§a§lLicense§r\nThis mod is ported under the MIT license, following the original Java edition: §o§hLuncheon Meat's Delight§r! Special thanks to §o§hRenyigesai§r for creating this wonderful mod.
+
+LuncheonMeatDelight.book.lunch_meat.pork_filling=§6Minced Pork§r\nMinced pork is now obtained by using stick on a raw porkchop on a cutting board§r\nCan be eaten directly or used to craft Raw Luncheon Meat Cans.
+LuncheonMeatDelight.book.lunch_meat.can_shell=§6Can Shell§r\nA container for holding Raw Luncheon Meat Cans.
+LuncheonMeatDelight.book.lunch_meat.raw_can=§6Raw Luncheon Meat Can§r\nMust be cooked into a Luncheon Meat Can before consumption.
+LuncheonMeatDelight.book.lunch_meat.cooked_can=§6Luncheon Meat Can§r\nCannot be eaten directly. Place it down, then hold a knife and right-click to pry open the lid. Extract 4 Luncheon Meat slices and obtain a Discarded Can Shell. You can also right-click while holding the can to stack it.
+LuncheonMeatDelight.book.lunch_meat.waste_shell=§6Discarded Can Shell§r\nLeftover after extracting Luncheon Meat. Can be recycled by combining with dough.
+LuncheonMeatDelight.book.lunch_meat.slices=§6Luncheon Meat & Fried Luncheon Meat§r\nCan be eaten directly or used in other recipes.
+
+LuncheonMeatDelight.book.toast.dough=§6Can Shell Dough§r\nCrafted with dough and Discarded Can Shells. Must be baked into a Canned Toast Block.
+LuncheonMeatDelight.book.toast.toast_can=§6Canned Toast Block§r\nCannot be eaten directly. Place it down and use a knife to extract Small Toast.
+LuncheonMeatDelight.book.toast.small_toast=§6Small Toast§r\nCannot be eaten directly. Place it on a Cutting Board and slice into Sliced Toast.
+LuncheonMeatDelight.book.toast.sliced_toast=§6Sliced Toast§r\nCan be eaten directly or used in other recipes.
+
+LuncheonMeatDelight.book.other_foods.sandwich=§6Luncheon Meat Sandwich§r\nCan be eaten directly.
+LuncheonMeatDelight.book.other_foods.rice_ball=§6Luncheon Meat Rice Ball§r\nCan be eaten directly or crafted into a Platter.
+LuncheonMeatDelight.book.other_foods.plated_rice=§6Luncheon Meat Rice Ball Platter§r\nRight-click to take Rice Balls when placed. Sneak + right-click to eat directly (up to 2 times). After consumption, right-click to retrieve an empty bowl.
+LuncheonMeatDelight.book.other_foods.fried_egg=§6Fried Egg with Luncheon Meat§r\nMust be placed to eat. Consumable twice, then becomes an empty plate. Right-click to retrieve the bowl.

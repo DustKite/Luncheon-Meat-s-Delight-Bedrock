@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "luncheonmeatsdelight:book_luncheonmeatdelight"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:book"
+            },
+            {
+                "item": "luncheonmeatsdelight:can_shell"
+            }
+        ],
+        "result": {
+            "count": 2,
+            "item": "luncheonmeatsdelight:book_luncheonmeatdelight"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

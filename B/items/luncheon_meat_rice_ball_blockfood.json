@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood"
+                }
+            },
+            "minecraft:block_placer": {
+                "block": "luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood",
+                "replace_block_item": true
+            }
+        },
+        "description": {
+            "identifier": "luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

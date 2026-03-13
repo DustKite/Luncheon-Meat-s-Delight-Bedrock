@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:fried_egg_luncheon_meat"
+                }
+            },
+            "minecraft:block_placer": {
+                "block": "luncheonmeatsdelight:fried_egg_luncheon_meat",
+                "replace_block_item": true
+            }
+        },
+        "description": {
+            "identifier": "luncheonmeatsdelight:fried_egg_luncheon_meat",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

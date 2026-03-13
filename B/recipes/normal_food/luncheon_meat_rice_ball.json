@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luncheonmeatsdelight:luncheon_meat_rice_ball"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "luncheonmeatsdelight:luncheon_meat"
+      },
+      "B": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "C": {
+        "item": "minecraft:dried_kelp"
+      }
+    },
+    "result": [
+      {
+        "item": "luncheonmeatsdelight:luncheon_meat_rice_ball",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bowl",
+        "count": 1
+      }
+    ]
+  }
+}

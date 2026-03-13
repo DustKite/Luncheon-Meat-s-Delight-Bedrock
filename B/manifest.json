@@ -1,0 +1,66 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "e71a825c-877b-4d0f-b6a6-9197c20d8429",
+    "version": [
+      5,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b4f048da-1175-4d24-a724-6c0de5b22cf0",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "Luncheon Meat 's Delight Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "00c790d7-a0e9-42e0-8c17-6d09f5bc66ea",
+      "version": [
+        5,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite"
+    ],
+    "license": "GPLv3",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "0826f29c-0f14-46a5-914b-ed7e05b01c7b",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

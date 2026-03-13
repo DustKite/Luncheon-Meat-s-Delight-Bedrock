@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "luncheonmeatsdelight:luncheon_meat_can"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": "luncheonmeatsdelight:luncheon_meat_can_raw",
+    "output": "luncheonmeatsdelight:luncheon_meat_can"
+  }
+}

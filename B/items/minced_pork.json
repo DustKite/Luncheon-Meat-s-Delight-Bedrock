@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 1,
+                "saturation_modifier": 1.5
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:minced_pork"
+                }
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "luncheonmeatsdelight:minced_pork",
+            "menu_category": {
+                "category": "nature",
+                "group": "farmersdelight:itemGroup.name.rawFood"
+            }
+        }
+    }
+}

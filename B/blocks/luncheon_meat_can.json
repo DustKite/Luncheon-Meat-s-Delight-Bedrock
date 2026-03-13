@@ -1,0 +1,225 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "luncheonmeatsdelight:luncheon_meat_can",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "luncheonmeatsdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('luncheonmeatsdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "luncheon_meat_can"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3.1,
+                            0.0,
+                            -2.1
+                        ],
+                        "size": [
+                            6.2,
+                            4.7,
+                            4.2
+                        ]
+                    },
+                    "minecraft:loot": "loot_tables/luncheonmeatsdelight/luncheon_meat_can_block.json",
+                    "minecraft:geometry": "geometry.luncheon_meat_can"
+                }
+            },
+            {
+                "condition": "query.block_state('luncheonmeatsdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "luncheon_meat_can_open"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3.1,
+                            0.0,
+                            -2.1
+                        ],
+                        "size": [
+                            6.2,
+                            4.7,
+                            4.2
+                        ]
+                    },
+                    "minecraft:loot": "loot_tables/luncheonmeatsdelight/luncheon_meat_can_block.json",
+                    "minecraft:geometry": "geometry.luncheon_meat_can_open"
+                }
+            },
+            {
+                "condition": "query.block_state('luncheonmeatsdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "luncheon_meat_can"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1,
+                            0.0,
+                            -2.1
+                        ],
+                        "size": [
+                            14.2,
+                            4.7,
+                            4.2
+                        ]
+                    },
+                    "minecraft:loot": "loot_tables/luncheonmeatsdelight/luncheon_meat_can_pile1.json",
+                    "minecraft:geometry": "geometry.luncheon_meat_can_pile_1"
+                }
+            },
+            {
+                "condition": "query.block_state('luncheonmeatsdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "luncheon_meat_can"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1,
+                            0.0,
+                            -5.1
+                        ],
+                        "size": [
+                            14.2,
+                            5.0,
+                            10.2
+                        ]
+                    },
+                    "minecraft:loot": "loot_tables/luncheonmeatsdelight/luncheon_meat_can_pile2.json",
+                    "minecraft:geometry": "geometry.luncheon_meat_can_pile_2"
+                }
+            },
+            {
+                "condition": "query.block_state('luncheonmeatsdelight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "luncheon_meat_can_pile3"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1,
+                            0.0,
+                            -5.1
+                        ],
+                        "size": [
+                            14.2,
+                            5.0,
+                            10.2
+                        ]
+                    },
+                    "minecraft:loot": "loot_tables/luncheonmeatsdelight/luncheon_meat_can_pile3.json",
+                    "minecraft:geometry": "geometry.luncheon_meat_can_pile_3"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:collision_box": {
+                "origin": [
+                    -3.1,
+                    0.0,
+                    -2.1
+                ],
+                "size": [
+                    6.2,
+                    4.7,
+                    4.2
+                ]
+            },
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": false
+            },
+            "luncheonmeatsdelight:luncheon_meat_can": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.01
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.01
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        }
+    }
+}

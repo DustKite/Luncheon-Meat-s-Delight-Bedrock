@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luncheonmeatsdelight:luncheon_meat_can_raw_B"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "BC",
+      " D"
+    ],
+    "key": {
+      "A": {
+        "item": "luncheonmeatsdelight:minced_pork"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      },
+      "C": {
+        "item": "minecraft:red_dye"
+      },
+      "D": {
+        "item": "luncheonmeatsdelight:can_shell"
+      }
+    },
+    "result": {
+      "item": "luncheonmeatsdelight:luncheon_meat_can_raw"
+    }
+  }
+}

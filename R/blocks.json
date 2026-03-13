@@ -1,0 +1,18 @@
+{
+    "luncheonmeatsdelight:fried_egg_luncheon_meat": {
+        "sound": "cloth"
+    },
+    "luncheonmeatsdelight:luncheon_meat_rice_ball_blockfood": {
+        "sound": "cloth"
+    },
+    "luncheonmeatsdelight:small_toast": {
+        "sound": "cloth"
+    },
+    "luncheonmeatsdelight:can_shell_small_toast": {
+        "sound": "lantern"
+    },
+    "luncheonmeatsdelight:luncheon_meat_can": {
+        "sound": "lantern"
+    },
+    "format_version": "1.1.0"
+}

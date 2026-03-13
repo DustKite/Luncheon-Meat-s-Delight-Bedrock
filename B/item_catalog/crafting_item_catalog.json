@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "luncheonmeatsdelight:luncheon_meat_can",
+                            "name": "luncheonmeatsdelight:itemGroup.name.luncheonmeatsdelight"
+                        },
+                        "items": [
+                            "luncheonmeatsdelight:can_shell",
+                            "luncheonmeatsdelight:can_shell_abandon",
+                            "luncheonmeatsdelight:luncheon_meat_can_raw",
+                            "luncheonmeatsdelight:luncheon_meat_can",
+                            "luncheonmeatsdelight:can_shell_dough",
+                            "luncheonmeatsdelight:can_shell_small_toast",
+                            "luncheonmeatsdelight:small_toast"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

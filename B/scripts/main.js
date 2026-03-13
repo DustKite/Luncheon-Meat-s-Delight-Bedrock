@@ -1,0 +1,12 @@
+import { LuncheonMeatCanComponent } from "./customComponents/blocks/LuncheonMeatCanComponent";
+new LuncheonMeatCanComponent();
+import { CanShellSmallToastComponent } from "./customComponents/blocks/CanShellSmallToastComponent";
+new CanShellSmallToastComponent();
+import { FriedEggLuncheonMeatComponent } from "./customComponents/blocks/FriedEggLuncheonMeatComponent";
+new FriedEggLuncheonMeatComponent();
+import { LuncheonMeatRiceBallComponent } from "./customComponents/blocks/LuncheonMeatRiceBallComponent";
+new LuncheonMeatRiceBallComponent();
+import { LuncheonMeatDelightBook } from "./item/LuncheonMeatDelightBook";
+new LuncheonMeatDelightBook();
+import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+new CookingPotRecipeRegister();

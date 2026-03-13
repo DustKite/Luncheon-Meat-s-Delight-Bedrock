@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luncheonmeatsdelight:can_shell_small_toast"
+                }
+            },
+            "minecraft:block_placer": {
+                "block": "luncheonmeatsdelight:can_shell_small_toast",
+                "replace_block_item": true
+            }
+        },
+        "description": {
+            "identifier": "luncheonmeatsdelight:can_shell_small_toast",
+            "menu_category": {
+                "category": "items",
+                "group": "luncheonmeatsdelight:itemGroup.name.luncheonmeatsdelight"
+            }
+        }
+    }
+}
